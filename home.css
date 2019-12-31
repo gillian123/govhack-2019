@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://ak4.picdn.net/shutterstock/videos/1007972974/thumb/12.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 70px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin-top: 0px;
+}
+
+#about {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#center {
+    text-align: center;
+}
+
+.fa-chevron-circle-down {
+    color: white;
+    font-size: 35px;
+    transition: font-size 0.35s ease;
+}
+
+.fa-chevron-circle-down:hover {
+    font-size: 50px;
+}
+
+#arrow:active, #active:focus {
+    outline: none !important;
+}

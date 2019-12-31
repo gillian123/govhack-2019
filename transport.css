@@ -1,0 +1,100 @@
+body {
+    background: black;
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.navbar {
+    font-size: 1.3rem;
+    background-color: #131212;
+    height: 50px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    margin-right: 50px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.searchBox {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-search {
+    color: #EFE6E6;
+}
+
+.fa-arrow-right {
+    font-size: 20px;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+#functions {
+    border-bottom: 2px solid white;
+    height: 60px;
+    padding: 15px;
+}
+
+#currentLocation {
+    color: #EFE6E6;
+    background: transparent;
+    font-size: 18px;
+}
+
+#currentLocation:hover {
+    color: grey;
+}
+
+label {
+    margin: 0;
+    font-size: 18px;
+}
+
+#congestion {
+    margin-left: 350px;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#searchField:focus {
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+#searchButton:focus {
+    outline: none;
+}
+
+div#deck-gl {
+    margin-top: 40px;
+    margin-left: 205px;
+    margin-right: 205px;
+    height: 500px;
+}
+
+div#tooltip {
+    z-index: 2;
+    background-color: white;
+    padding: 5px;
+    color: black;
+}
